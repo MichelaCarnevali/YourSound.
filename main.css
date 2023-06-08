@@ -169,3 +169,32 @@ h1 {
   color:rgba(172,209,251,1) 
 }
 
+
+h2 {
+  font-family:Futura;
+  font-size:2em;
+  font-weight:bold;
+  height: 500px;
+  width:50%;
+  position:left;
+  color:black; 
+}
+
+p {
+  font-family:Futura;
+  font-weight:bold;
+  height: 300px;
+  width:30%;
+  position:left;
+  color:black;
+  font-size: 0.7em;
+  padding: 0px 10px 0px 10px;
+}
+
+section{
+  display:inline-block;
+  text-align:center;
+  margin-left: 5%;
+  margin-bottom:5%;
+}
+
