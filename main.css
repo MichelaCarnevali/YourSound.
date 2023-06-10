@@ -15,7 +15,7 @@ body {
 
 header{
 font-family: roboto;
-padding: 70px 20px 0px 20px; 
+padding: 20px 20px 0px 20px; 
 background-color: rgba(172,209,251,1);
 }
 
@@ -29,39 +29,26 @@ nav ul li {
   color: black;
   font-family: 'Geologica', sans-serif;
   text-align: left;
+  font-size: 3em;
+  padding-right: 2%;
+  font-weight: bold;
 }
+
 
 .header2 {
   text-decoration: none;
   color: black;
   font-family: 'Geologica', sans-serif;
-  display: center;
-  padding: 10px 15px 0px 15px; 
-}
-
-
-.active {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  border-radius: 3px 3px 0px 3px;
-  font-size: 2em;
-  padding: 10px 15px 0px 15px; 
-  border-top-right-radius: 6px;
-  border-top-left-radius:6px;
+  padding: 8px 15px 0px 15px; 
+  font-size: 2em; 
+  border-top-right-radius: 6px; 
+  border-top-left-radius:6px; 
   border-bottom-left-radius: 0px;
-}
-
-.menùnav {
-  text-decoration: none;
-  color: black;
-  background-color: rgba(172,209,251,1);
-  padding: 10px 15px 0px 15px; 
-  font-size: 2em;
+  text-align: right;
 }
 
 .header2:hover{
-  background-color: rgb(75, 159, 254);
+  background-color: #4f81c7;
 }
 
 h1 {
@@ -74,8 +61,10 @@ h1 {
   text-align: center;
   margin-top: 0%;
   margin-right: 0%;
+  text-align: center;
 }
-.v3_8 {
+
+.bottone1 {
   width: 177px;
   height: 58px;
   padding: 10px 10px;
@@ -90,16 +79,16 @@ h1 {
   border-bottom-right-radius: 17px;
   border-color: rgba(172,209,251,1);
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
-  overflow: hidden;
   opacity: 5;
+  margin-left: 4%;
 }
 
 
-.v3_8:hover {
+.bottone1:hover {
   background-color:#4f81c7;
 }
   
-.v3_7 {
+.bottone2 {
   width: 157px;
   color: rgba(248,248,248,1);
   position: absolute;
@@ -109,8 +98,8 @@ h1 {
   font-weight: Bold;
   font-size: 32px;
   opacity: 5;
-  text-align: center;
 }
+
 .v6_6 {
   width: 76px;
   height: 59px;
