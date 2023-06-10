@@ -1,20 +1,11 @@
 
 body {
   font-size: 14px;
-}
-.v1_2 {
-  width: 100%;
-  height: 3410px;
-  background: rgba(248,248,248,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  margin: 0%;
 }
 
 header{
-font-family: roboto;
+font-family: 'Geologica', sans-serif;
 padding: 20px 20px 0px 20px; 
 background-color: rgba(172,209,251,1);
 }
@@ -52,14 +43,13 @@ nav ul li {
 }
 
 h1 {
-  position: absolute;
   top: 288px;
   font-family: Futura;
   font-weight: Bold;
   font-size: 96px;
   opacity: 1;
   text-align: center;
-  margin-top: 0%;
+  margin-top: 10%;
   margin-right: 0%;
   text-align: center;
 }
@@ -70,7 +60,6 @@ h1 {
   padding: 10px 10px;
   background-color: rgba(172,209,251,1);
   margin: 10px;
-  position: absolute;
   top: 580px;
   left: 565px;
   border-top-left-radius: 17px;
@@ -80,7 +69,8 @@ h1 {
   border-color: rgba(172,209,251,1);
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
   opacity: 5;
-  margin-left: 4%;
+  margin-left: 43%;
+  margin-bottom:10%;
 }
 
 
@@ -91,41 +81,31 @@ h1 {
 .bottone2 {
   width: 157px;
   color: rgba(248,248,248,1);
-  position: absolute;
   top: 10px;
   left: 10px;
-  font-family: Roboto;
+  font-family: 'Geologica', sans-serif;
   font-weight: Bold;
-  font-size: 32px;
+  font-size: 2em;
   opacity: 5;
 }
 
-.v6_6 {
-  width: 76px;
-  height: 59px;
-  background: url("../images/v6_6.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 217px;
-  left: 162px;
-  overflow: hidden;
-}
-
-.v8_2 {
+.home2 {
   width: 100%;
   height: 832px;
   background: rgba(172,209,251,1);
   opacity: 1;
-  position: absolute;
   top: 873px;
   left: 0px;
-  overflow: hidden;
+}
+ 
+.home3 {
+width: 100%;
+height: 832px;
+background: white repeat-x fixed top left;
+text-align: center;
 }
 
-.v15_2 {
+.paragrafo1 {
   width: 818px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -136,32 +116,36 @@ h1 {
   font-size: 36px;
   opacity: 1;
   text-align: center;
+  margin-left: 9%;
+  margin-top: 0%;
+  line-height: 1,5;
 }
 
-.v8_4 {
+.title2 {
   width: 642px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 1001px;
-  left: 333px;
   font-family: Futura;
   font-weight: Bold;
   font-size: 40px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
+  margin-top: -2%;
+  margin-bottom: 1%;
+  margin-left: 27%;
 }
-.v42_108 {
-  width: 100px;
-  height: 100px;
-  background: url("../images/v42_108.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+
+.title3 {
+  margin-right: 0%;
+  width: 642px;
+  font-family: Futura;
+  font-weight: Bold;
+  font-size: 40px;
   opacity: 1;
-  position: absolute;
-  top: 702px;
-  left: 304px;
-  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 27%;
 }
 
 .musictitle {
@@ -190,7 +174,7 @@ h2 {
   
 }
 
-h4{
+h4 {
   font-family:Futura;
   font-size:2.5em;
   font-weight:bold;
@@ -220,7 +204,7 @@ h3 {
   
 }
 
-h5{
+h5 {
   font-family:Futura;
   font-weight:bold;
   position:left;
@@ -228,7 +212,7 @@ h5{
   font-size: 2em;
 }
 
-section{
+section {
   display:inline-block;
   text-align:center;
   margin-left: 5%;
