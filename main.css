@@ -17,12 +17,28 @@ header{
 font-family: roboto;
 padding: 70px 20px 0px 20px; 
 background-color: rgba(172,209,251,1);
-text-align: center;
 }
 
 nav ul li {
+  font-family: 'Geologica', sans-serif;
   display: inline-block;
 }
+
+.header1 {
+  text-decoration: none;
+  color: black;
+  font-family: 'Geologica', sans-serif;
+  text-align: left;
+}
+
+.header2 {
+  text-decoration: none;
+  color: black;
+  font-family: 'Geologica', sans-serif;
+  display: center;
+  padding: 10px 15px 0px 15px; 
+}
+
 
 .active {
   text-decoration: none;
@@ -44,8 +60,8 @@ nav ul li {
   font-size: 2em;
 }
 
-.menùnav:hover{
-  text-decoration: underline;
+.header2:hover{
+  background-color: rgb(75, 159, 254);
 }
 
 h1 {
