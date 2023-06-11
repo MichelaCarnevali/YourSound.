@@ -4,6 +4,8 @@ body {
   margin: 0%;
 }
 
+
+
 header{
 font-family: 'Geologica', sans-serif;
 padding: 20px 20px 0px 20px; 
@@ -51,8 +53,8 @@ h1 {
   text-align: center;
   margin-top: 10%;
   margin-right: 0%;
-  text-align: center;
 }
+
 
 .bottone1 {
   width: 177px;
@@ -219,3 +221,23 @@ section {
   margin-bottom:5%;
 }
 
+footer{
+  text-align: center;
+  font-size: 1.5em;
+  background-color:rgba(172,209,251,1);
+}
+
+.instagram{
+  text-decoration:none;
+  color:black;
+}
+
+.spotify{
+  text-decoration:none;
+  color:black;
+}
+
+.documentazione {
+  text-decoration:none;
+  color:black;
+}
