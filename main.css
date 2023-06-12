@@ -5,7 +5,6 @@ body {
 }
 
 
-
 header{
 font-family: 'Geologica', sans-serif;
 padding: 20px 20px 0px 20px; 
@@ -33,7 +32,7 @@ nav ul li {
   color: black;
   font-family: 'Geologica', sans-serif;
   padding: 8px 15px 0px 15px; 
-  font-size: 2em; 
+  font-size: 1.5em; 
   border-top-right-radius: 6px; 
   border-top-left-radius:6px; 
   border-bottom-left-radius: 0px;
@@ -48,10 +47,11 @@ h1 {
   top: 288px;
   font-family: Futura;
   font-weight: Bold;
-  font-size: 96px;
+  font-size: 95px;
   opacity: 1;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   margin-right: 0%;
 }
 
@@ -72,7 +72,7 @@ h1 {
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
   opacity: 5;
   margin-left: 43%;
-  margin-bottom:10%;
+  margin-bottom:5%;
 }
 
 
@@ -98,6 +98,7 @@ h1 {
   opacity: 1;
   top: 873px;
   left: 0px;
+  display: inline-block;
 }
  
 .home3 {
@@ -110,50 +111,54 @@ text-align: center;
 .paragrafo1 {
   width: 818px;
   color: rgba(0,0,0,1);
-  position: absolute;
-  top: 1172px;
-  left: 182px;
-  font-family: Roboto;
+  font-family: 'Geologica', sans-serif;;
   font-weight: Medium;
-  font-size: 36px;
+  font-size: 2.5em;
   opacity: 1;
   text-align: center;
-  margin-left: 9%;
-  margin-top: 0%;
   line-height: 1,5;
+  padding-left: 3%;
+}
+
+#immagine2 {
+  float: right;
+  height:832px;
+  width: auto;
 }
 
 .title2 {
   width: 642px;
   color: rgba(0,0,0,1);
-  position: absolute;
-  top: 1001px;
-  font-family: Futura;
+  font-family: 'Geologica', sans-serif;;
   font-weight: Bold;
   font-size: 40px;
   opacity: 1;
   text-align: center;
-  margin-top: -2%;
-  margin-bottom: 1%;
-  margin-left: 27%;
+  padding-top: 12%;
+  padding-left: 8%;
 }
 
 .title3 {
   margin-right: 0%;
   width: 642px;
-  font-family: Futura;
+  font-family: 'Geologica', sans-serif;;
   font-weight: Bold;
   font-size: 40px;
   opacity: 1;
   margin-top: 5%;
-  margin-bottom: 0%;
+  margin-bottom: 3%;
   margin-left: 27%;
+}
+
+.sfondo {
+color: transparent;
+padding: 7% 10% 7% 10%;
+background-image: url(https://i.pinimg.com/564x/f3/ac/93/f3ac930aad1dc4db97c011101b42dd8e.jpg);
 }
 
 .musictitle {
   color:rgba(172,209,251,1) 
 }
-
 
 h2 {
   font-family:Futura;
@@ -200,7 +205,6 @@ h4 {
 h3 {
   font-family:Futura;
   font-weight:bold;
-  position:left;
   color:black;
   font-size: 2em;
   
@@ -218,13 +222,43 @@ section {
   display:inline-block;
   text-align:center;
   margin-left: 5%;
+}
+
+.playlist {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.section {
+  font-family:Futura;
+  font-weight:normal;
+  color:black; 
+  padding: 10px 10px;
+  background-color: rgba(172,209,251,1);
+  margin: 10px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  overflow: hidden;
+  opacity: 5;
+  display:inline-block;
+  width: 40%;
   margin-bottom:5%;
+}
+
+.descriz {
+  font-size: 2em;
 }
 
 footer{
   text-align: center;
   font-size: 1.5em;
   background-color:rgba(172,209,251,1);
+  margin-top: 20%;
+  font-family: 'Geologica', sans-serif;
 }
 
 .instagram{
@@ -237,7 +271,11 @@ footer{
   color:black;
 }
 
-.documentazione {
+.footer {
   text-decoration:none;
   color:black;
+}
+
+.footer:hover {
+color: #4f81c7;
 }
