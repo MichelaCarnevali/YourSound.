@@ -279,3 +279,15 @@ footer{
 .footer:hover {
 color: #4f81c7;
 }
+
+.layout {
+  width: 50%;
+  height: auto;
+}
+
+
+.pardoc {
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2em;
+}
