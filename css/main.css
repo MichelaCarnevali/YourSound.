@@ -37,6 +37,7 @@ nav ul li {
   border-top-left-radius:6px; 
   border-bottom-left-radius: 0px;
   text-align: right;
+  text-align:top;
 }
 
 .header2:hover{
