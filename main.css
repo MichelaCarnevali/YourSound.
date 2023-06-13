@@ -91,9 +91,14 @@ h1 {
   opacity: 5;
 }
 
+.home1 {
+  width: 100%;
+  height: 100%;
+}
+
 .home2 {
   width: 100%;
-  height: 832px;
+  height: 100%;
   background: rgba(172,209,251,1);
   opacity: 1;
   top: 873px;
@@ -123,8 +128,8 @@ text-align: center;
 
 #immagine2 {
   float: right;
-  height:832px;
-  width: auto;
+  height:100%;
+  width: 50%;
 }
 
 .title2 {
