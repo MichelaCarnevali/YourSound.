@@ -129,7 +129,7 @@ text-align: center;
 #immagine2 {
   float: right;
   height:100%;
-  width: auto;
+  width: 50%;
 }
 
 .title2 {
