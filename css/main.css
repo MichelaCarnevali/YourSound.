@@ -1,0 +1,353 @@
+
+body {
+  font-size: 14px;
+  margin: 0%;
+}
+
+
+header{
+font-family: 'Geologica', sans-serif;
+padding: 20px 20px 0px 20px; 
+background-color: rgba(172,209,251,1);
+}
+
+nav ul li {
+  font-family: 'Geologica', sans-serif;
+  display: inline-block;
+}
+
+.header1 {
+  text-decoration: none;
+  color: black;
+  font-family: 'Geologica', sans-serif;
+  text-align: left;
+  font-size: 2.5rem;
+  padding-right: 2%;
+  font-weight: bold;
+}
+
+
+.header2 {
+  text-decoration: none;
+  color: black;
+  font-family: 'Geologica', sans-serif;
+  padding: 8px 15px 0px 15px; 
+  font-size: 1.5em; 
+  border-top-right-radius: 6px; 
+  border-top-left-radius:6px; 
+  border-bottom-left-radius: 0px;
+  text-align: right;
+}
+
+.header2:hover{
+  background-color: #4f81c7;
+}
+
+h1 {
+  top: 288px;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 6.5rem;
+  opacity: 1;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 0%;
+}
+
+
+.bottone1 {
+  width: 177px;
+  height: 58px;
+  padding: 10px 10px;
+  background-color: #acd1fb;
+  margin: 10px;
+  top: 580px;
+  left: 565px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  opacity: 5;
+  margin-left: 43%;
+  margin-bottom:5%;
+}
+
+
+.bottone1:hover {
+  background-color:#4f81c7;
+}
+  
+.bottone2 {
+  width: 157px;
+  color: rgba(248,248,248,1);
+  top: 10px;
+  left: 10px;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 2em;
+  opacity: 5;
+}
+
+.home2 {
+  width: 100%;
+  height: 832px;
+  background: rgba(172,209,251,1);
+  opacity: 1;
+  top: 873px;
+  left: 0px;
+  display: inline-block;
+}
+ 
+.home3 {
+width: 100%;
+height: 100%;
+background: white repeat-x fixed top left;
+text-align: center;
+
+}
+
+.paragrafo1 {
+  width: 818px;
+  color: rgba(0,0,0,1);
+  font-family: 'Roboto Slab', serif;
+  font-weight: Medium;
+  font-size: 2.5em;
+  opacity: 1;
+  text-align: center;
+  line-height: 2em;
+  padding-left: 3%;
+}
+
+#immagine2 {
+  float: right;
+  height:832px;
+  width: auto;
+}
+
+.title2 {
+  width: 642px;
+  color: rgba(0,0,0,1);
+  font-family: 'Geologica', sans-serif;;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  padding-top: 7%;
+  padding-left: 8%;
+}
+
+.title3 {
+  margin-right: 0%;
+  width: 642px;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 27%;
+}
+
+.sfondo {
+color: transparent;
+padding: 7% 10% 7% 10%;
+background-image: url(https://i.pinimg.com/564x/f3/ac/93/f3ac930aad1dc4db97c011101b42dd8e.jpg);
+}
+
+.musictitle {
+  color:rgba(172,209,251,1) 
+}
+
+h2 {
+  font-family:Futura;
+  font-size:2.5em;
+  font-weight:bold;
+  color:white; 
+  padding: 10px 10px;
+  background-color: rgba(172,209,251,1);
+  margin: 10px;
+  top: 580px;
+  left: 565px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  overflow: hidden;
+  opacity: 5;
+  
+}
+
+h4 {
+  font-family:Futura;
+  font-size:2.5em;
+  font-weight:bold;
+  color:white; 
+  padding: 10px 10px;
+  background-color: rgba(172,209,251,1);
+  margin: 10px;
+  top: 580px;
+  left: 565px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  overflow: hidden;
+  opacity: 5;
+ 
+}
+
+h3 {
+  font-family:Futura;
+  font-weight:bold;
+  color:black;
+  font-size: 2em;
+  
+}
+
+h5 {
+  font-family:Futura;
+  font-weight:bold;
+  position:left;
+  color:black;
+  font-size: 2em;
+}
+
+section {
+  display:inline-block;
+  text-align:center;
+  margin-left: 5%;
+}
+
+.playlist {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.section {
+  font-family: 'Roboto Slab', serif;
+  font-weight:normal;
+  color:black; 
+  padding: 10px 10px;
+  background-color: rgba(172,209,251,1);
+  margin: 10px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  opacity: 5;
+  display:inline-block;
+  width: 40%;
+  margin-bottom:3%;
+  line-height: 2.5rem;
+}
+
+.descriz {
+  font-size: 2em;
+}
+
+.bottone3 {
+  width: 17em;
+  height: 3em;
+  padding: 2.5em 2.5em;
+  background-color: rgba(172,209,251,1);
+  margin: 3%;
+  top: 40%;
+  left: 40%;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  opacity: 5;
+  margin-left: 10%;
+  margin-bottom:5%;
+}
+
+
+.bottone3:hover {
+  background-color:#4f81c7;
+}
+
+.bottone4 {
+  width: 3em;
+  color: rgba(248,248,248,1);
+  top: 10%;
+  left: 10%;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 2em;
+  opacity: 5;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.5em;
+  background-color:rgba(172,209,251,1);
+  margin-top: 5%;
+  font-family: 'Geologica', sans-serif;
+  padding-top: 3%;
+}
+
+.obiettivi{
+  height:20%;
+  width:20%;
+}
+
+.obiettivis{
+  display:inline-block;
+  height:20%;
+  width:20%;
+}
+
+.instagram{
+  text-decoration:none;
+  color:black;
+}
+
+.spotify{
+  text-decoration:none;
+  color:black;
+}
+
+.footer {
+  text-decoration:none;
+  color:black;
+}
+
+.footer:hover {
+color: #4f81c7;
+}
+
+.layout {
+  width: 50%;
+  height: auto;
+}
+
+
+.pardoc {
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2em;
+  font-family: 'Roboto Slab', serif;
+}
+
+.imgmerce {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+}
+
+#maglia {
+  display: inline-block;
+}
+
