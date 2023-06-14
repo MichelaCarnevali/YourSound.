@@ -1,0 +1,515 @@
+
+body {
+  font-size: 14px;
+  margin: 0%;
+}
+
+header{
+font-family: 'Geologica', sans-serif;
+padding: 2% 1% 0% 1%; 
+background-color: rgba(172,209,251,1);
+height: 30%;
+}
+
+@media (max-width:760px) {
+  header {
+    line-height: 3.5em;
+    padding: 2% 2% 0% 1%;
+  }
+}
+
+nav ul li {
+  font-family: 'Geologica', sans-serif;
+  display: inline-block;
+}
+
+.header1 {
+  text-decoration: none;
+  color: black;
+  font-family: 'Geologica', sans-serif;
+  text-align: left;
+  font-size: 2.5rem;
+  padding-right: 2%;
+  font-weight: bold;
+}
+
+@media (max-width:980px) {
+  .header1 {
+    padding: 2% 2% 2% 2%;
+  }
+}
+
+
+.header2 {
+  text-decoration: none;
+  color: black;
+  font-family: 'Geologica', sans-serif;
+  padding: 8px 15px 4px 15px; 
+  font-size: 1.5rem; 
+  border-top-right-radius: 6px; 
+  border-top-left-radius:6px; 
+  border-bottom-left-radius: 0px;
+  margin-bottom: 0%;
+  margin-top: 5%;
+}
+
+@media (max-width: 980px) {
+  .header2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    float: right;
+  }
+}
+
+.header2:hover{
+  background-color: #4f81c7;
+}
+
+#titolosito {
+  margin-right: 26%;
+  margin-bottom: 3%;
+}
+
+@media (max-width:980px) {
+  #titolosito {
+    padding-bottom: 10%;
+    padding-right: 40%;
+  }
+}
+
+
+h1 {
+  top: 288px;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 6.5rem;
+  opacity: 1;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 0%;
+}
+
+
+
+.bottone1 {
+  width: 177px;
+  height: 58px;
+  padding: 10px 10px;
+  background-color: #acd1fb;
+  margin: 10px;
+  top: 580px;
+  left: 565px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  opacity: 5;
+  margin-left: 43%;
+  margin-bottom:5%;
+}
+
+
+.bottone1:hover {
+  background-color:#4f81c7;
+}
+  
+@media (max-width:980px) {
+  .bottone1 {
+  width: 30%;
+  height: 10%;
+  margin-left: 35%;
+  }
+}
+
+.bottone2 {
+  width: 157px;
+  color: rgba(248,248,248,1);
+  top: 10px;
+  left: 10px;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 2em;
+  opacity: 5;
+}
+
+@media (max-width:980px) {
+  .bottone2 {
+  font-size: 3em;
+  }
+}
+
+.home1 {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:980px) {
+  .home1 {
+    height: 1300.59px;
+  }
+}
+
+.home2 {
+  width: 100%;
+  height: 100%;
+  background: rgba(172,209,251,1);
+  opacity: 1;
+  top: 873px;
+  left: 0px;
+  display: inline-block;
+}
+
+
+@media (max-width:980px) {
+  .home2 {
+    text-align: center;
+    padding: 20% 0% 25% 0%;
+  }
+}
+
+ 
+.home3 {
+width: 100%;
+height: 100%;
+background: white repeat-x fixed top left;
+align-items: center !important;
+
+}
+
+.paragrafo1 {
+  width: 80%;
+  color: rgba(0,0,0,1);
+  font-family: 'Roboto Slab', serif;
+  font-weight: Medium;
+  font-size: 2.5rem;
+  opacity: 1;
+  text-align: center;
+  line-height: 2em;
+  padding-left: 3%;
+}
+
+@media (max-width:980px) {
+  .paragrafo1 {
+    width: 90%;
+    padding: 5% 1% 5% 5%
+  }
+}
+
+#immagine2 {
+  float: right;
+  height:100%;
+  width: 50%;
+
+}
+
+@media (max-width:980px) {
+  #immagine2 {
+    height: 0%;
+    width: 0%;
+    opacity: 0.0;
+  }
+}
+
+.title2 {
+  width: 642px;
+  color: rgba(0,0,0,1);
+  font-family: 'Geologica', sans-serif;;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  padding-top: 7%;
+  padding-left: 8%;
+}
+
+@media (max-width:980px) {
+  .title2 {
+    padding-left: 0%;
+    margin-right: 0%;
+    width: 90%;
+    padding-left: 5%;
+  }
+}
+
+.title3 {
+  margin-right: 0%;
+  width: 642px;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 27%;
+  text-align: center
+}
+
+@media (max-width:980px) {
+  .title3 {
+    margin-left: 20%;
+    text-align: center;
+  }
+}
+
+.sfondo {
+color: transparent;
+padding: 7% 10% 7% 10%;
+background-image: url(https://i.pinimg.com/564x/f3/ac/93/f3ac930aad1dc4db97c011101b42dd8e.jpg);
+
+}
+
+@media (max-width:980px) {
+  .sfondo {
+padding: 14% 10% 14% 10%;
+  }
+}
+
+@media (max-width:980px) {
+  .title1 {
+    margin-top: 20%;
+    margin-bottom: 6%;
+  }
+}
+
+.musictitle {
+  color:rgba(172,209,251,1) 
+}
+
+h2 {
+  font-family:Futura;
+  font-size:2.5em;
+  font-weight:bold;
+  color:white; 
+  padding: 10px 10px;
+  background-color: rgba(172,209,251,1);
+  margin: 10px;
+  top: 580px;
+  left: 565px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  overflow: hidden;
+  opacity: 5;
+  
+}
+
+h4 {
+  font-family:Futura;
+  font-size:2.5em;
+  font-weight:bold;
+  color:white; 
+  padding: 10px 10px;
+  background-color: rgba(172,209,251,1);
+  margin: 10px;
+  top: 580px;
+  left: 565px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  overflow: hidden;
+  opacity: 5;
+ 
+}
+
+h3 {
+  font-family:Futura;
+  font-weight:bold;
+  color:black;
+  font-size: 2em;
+  
+}
+
+h5 {
+  font-family:Futura;
+  font-weight:bold;
+  position:left;
+  color:black;
+  font-size: 2em;
+}
+
+section {
+  display:inline-block;
+  text-align:center;
+  margin-left: 5%;
+}
+
+.playlist {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+@media (max-width:980px) {
+  .playlist {
+    margin-left: 25%;
+  }
+}
+
+.section {
+  font-family: 'Roboto Slab', serif;
+  font-weight:normal;
+  color:black; 
+  padding: 10px 10px;
+  background-color: rgba(172,209,251,1);
+  margin: 10px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  opacity: 5;
+  display:inline-block;
+  width: 40%;
+  margin-bottom:3%;
+  line-height: 2.5rem;
+  margin-left: 6%;
+}
+
+@media (max-width:980px) {
+  .section {
+    margin-left: 5%;
+  }
+}
+
+.descriz {
+  font-size: 2em;
+}
+
+.bottone3 {
+  width: 17em;
+  height: 3em;
+  padding: 2.5em 2.5em;
+  background-color: rgba(172,209,251,1);
+  margin: 3%;
+  top: 40%;
+  left: 40%;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-color: rgba(172,209,251,1);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.17000000178813934);
+  opacity: 5;
+  margin-left: 10%;
+  margin-bottom:5%;
+}
+
+
+.bottone3:hover {
+  background-color:#4f81c7;
+}
+
+.bottone4 {
+  width: 3em;
+  color: rgba(248,248,248,1);
+  top: 10%;
+  left: 10%;
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 2em;
+  opacity: 5;
+}
+
+
+.abouttext{
+  color: rgba(0,0,0,1);
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+  opacity: 1;
+  text-align: center;
+  line-height: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.aboutsubtitle{
+  font-family: 'Geologica', sans-serif;
+  font-weight: Bold;
+  font-size: 2.5rem;
+  opacity: 1;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 7%;
+  margin-left: 6%;
+  
+}
+
+#nomargin {
+  margin-left: 0%;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.5em;
+  background-color:rgba(172,209,251,1);
+  margin-top: 5%;
+  font-family: 'Geologica', sans-serif;
+  padding-top: 3%;
+}
+
+.obiettivi{
+  height:20%;
+  width:20%;
+}
+
+.obiettivis{
+  display:inline-block;
+  height:20%;
+  width:20%;
+}
+
+.instagram{
+  text-decoration:none;
+  color:black;
+}
+
+.spotify{
+  text-decoration:none;
+  color:black;
+}
+
+.footer {
+  text-decoration:none;
+  color:black;
+}
+
+.footer:hover {
+color: #4f81c7;
+}
+
+.layout {
+  width: 50%;
+  height: auto;
+}
+
+
+.pardoc {
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2em;
+  font-family: 'Roboto Slab', serif;
+}
+
+.imgmerce {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+
+}
+
+#maglia {
+  display: inline-block;
+}
+
+
+
