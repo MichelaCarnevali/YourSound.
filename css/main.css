@@ -490,12 +490,15 @@ color: #4f81c7;
 .layout {
   width: 50%;
   height: auto;
+  margin-left: 5%;
 }
 
 
 .pardoc {
   font-size: 1.5rem;
   text-align: justify;
+  padding-left: 7%;
+  padding-right: 7%;
   line-height: 2em;
   font-family: 'Roboto Slab', serif;
 }
@@ -509,6 +512,16 @@ color: #4f81c7;
 
 #maglia {
   display: inline-block;
+}
+
+@media (max-width:980px) {
+  #doctitle {
+    font-size: 80px;
+  }
+}
+
+.docsubtitle {
+padding-left: 5%;
 }
 
 
